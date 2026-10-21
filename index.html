@@ -6,14 +6,13 @@
     <meta name="description" content="Portafolio de Camila Mardones, estudiante de Ingeniería Civil en Informática: proyectos, habilidades y contacto.">
     <title>Camila Mardones | Portafolio</title>
     <link rel="stylesheet" href="assets/styles/style.css">
-
-    <link rel="stylesheet" href="assets/styles/accesibilidad.css">
 </head>
 <body>
 
     <a class="saltar" href="#contenido">Saltar al contenido</a>
 
     <header id="inicio" tabindex="-1">
+        <div class="contenedor cabecera-contenido">
 
         <h1>Camila Mardones</h1>
 
@@ -26,9 +25,10 @@
 
         </nav>
 
+            </div>
     </header>
 
-    <main id="contenido" tabindex="-1">
+    <main id="contenido" class="contenedor" tabindex="-1">
 
         <section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
 
@@ -54,22 +54,22 @@
 
                 <article class="tarjeta" aria-labelledby="titulo-paleta">
 
+                    <div class="imagen-proyecto"><img src="assets/img/colores.png" alt="Cuadrícula de tonos verdes de distintas intensidades en la paleta de colores" loading="lazy" decoding="async" width="1228" height="619"></div>
                     <h3 id="titulo-paleta"><a href="https://github.com/CMardones06/26-08">Web para paleta de colores</a></h3>
-                    <img src="assets/img/colores.png" alt="Cuadrícula de tonos verdes de distintas intensidades en la paleta de colores" loading="lazy" decoding="async">
                     <p>Sitio web para obtener una paleta de colores monocromática.</p>
                     <p><strong>Tecnologías:</strong> HTML y CSS.</p>
                 </article>
 
                 <article class="tarjeta" aria-labelledby="titulo-rutas">
+                    <div class="imagen-proyecto"><img src="assets/img/rutas.png" alt="Grafo de ciudades argentinas con la ruta entre Mar del Plata y Corrientes resaltada" loading="lazy" decoding="async" width="1278" height="713"></div>
                     <h3 id="titulo-rutas"><a href="https://github.com/CMardones06/Proyecto-de-Matematica-Discreta">Calculadora de rutas</a></h3>
-                    <img src="assets/img/rutas.png" alt="Grafo de ciudades argentinas con la ruta entre Mar del Plata y Corrientes resaltada" loading="lazy" decoding="async">
                     <p>Calculadora de rutas óptimas entre ciudades mediante el algoritmo de Dijkstra.</p>
                     <p><strong>Tecnologías:</strong> Python, Matplotlib y NetworkX.</p>
                 </article>
 
                 <article class="tarjeta" aria-labelledby="titulo-animacion">
+                    <div class="imagen-proyecto"><img src="assets/img/animacion.png" alt="Fotograma de una animación sobre integrales definidas con una región sombreada bajo una curva y términos de la integral resaltados" loading="lazy" decoding="async" width="541" height="352"></div>
                     <h3 id="titulo-animacion"><a href="https://github.com/CMardones06/EID-CalculoIntermedio-G06">Animación matemática</a></h3>
-                    <img src="assets/img/animacion.png" alt="Fotograma de una animación sobre integrales definidas con una región sombreada bajo una curva y términos de la integral resaltados" loading="lazy" decoding="async">
                     <p>Animación de integrales definidas realizada en Python.</p>
                     <p><strong>Tecnologías:</strong> Python y Manim Community.</p>
                 </article>
@@ -83,7 +83,7 @@
 
             <p><a class="correo-contacto" href="mailto:camila.mardones2025@alu.uct.cl">camila.mardones2025@alu.uct.cl</a></p>
 
-            <form action="mailto:camila.mardones2025@alu.uct.cl" method="post" enctype="text/plain" aria-label="Formulario de contacto" aria-describedby="instrucciones-contacto">
+            <form action="mailto:camila.mardones2025@alu.uct.cl" method="post" enctype="text/plain" aria-label="Formulario de contacto">
 
                 <div class="campo">
 
@@ -97,7 +97,7 @@
                     <label for="correo">Correo electrónico (obligatorio)</label>
 
                     <p id="ayuda-correo" class="ayuda-campo">Utiliza una dirección completa, por ejemplo: nombre@dominio.cl.</p>
-                    <input type="email" id="correo" name="correo" autocomplete="email" inputmode="email" maxlength="254" required>
+                    <input type="email" id="correo" name="correo" autocomplete="email" inputmode="email" maxlength="254" aria-describedby="ayuda-correo" required>
 
                 </div>
 
@@ -116,8 +116,10 @@
     </main>
 
     <footer>
+        <div class="contenedor pie-contenido">
         <p>© 2026 Camila Mardones. Todos los derechos reservados.</p>
         <a href="#inicio">Volver al inicio</a>
+            </div>
     </footer>
 </body>
 </html>
