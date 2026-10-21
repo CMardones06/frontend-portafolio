@@ -1,5 +1,7 @@
 Camila Mardones | Portafolio
 
+Enlace a versión web: https://cmardones06.github.io/frontend-portafolio/
+
 Portafolio personal desarrollado para la evaluación P2 de Desarrollo de Frontend, en la Universidad Católica de Temuco. Presenta mi formación, habilidades, proyectos y datos de contacto mediante una página construida con HTML y CSS.
 
 El proyecto también está pensado como una plantilla de portafolio para programadores: sus textos, imágenes y enlaces se pueden reemplazar para adaptarlo a otro perfil.
