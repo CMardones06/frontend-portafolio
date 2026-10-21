@@ -3,17 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio blabalalabalbsalbsblas">
-    <title>Portafolio</title>
+    <meta name="description" content="Portafolio de Camila Mardones, estudiante de Ingeniería Civil en Informática: proyectos, habilidades y contacto.">
+    <title>Camila Mardones | Proyectos y contacto</title>
     <link rel="stylesheet" href="assets/styles/style.css">
-</head>
 
+    <link rel="stylesheet" href="assets/styles/accesibilidad.css">
+</head>
 <body>
 
-    <header>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
 
+    <header id="inicio" tabindex="-1">
+        <h1>Camila Mardones</h1>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-</body>
+    <main id="contenido" tabindex="-1">
+        <section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+            <h2 id="titulo-sobre-mi">Sobre mí</h2>
+            <p>Soy estudiante de Ingeniería Civil en Informática en la Universidad Católica de Temuco. Me apasionan la programación y el desarrollo de software, y busco aprender nuevas tecnologías y mejorar mis habilidades.</p>
 
+            <h3>Habilidades y conocimientos</h3>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="proyectos" aria-labelledby="titulo-proyectos">
+            <h2 id="titulo-proyectos">Mis proyectos</h2>
+            <p>Los enlaces de cada proyecto llevan a su código en GitHub.</p>
+
+            <div class="tarjetas-proyectos">
+                <article class="tarjeta" aria-labelledby="titulo-paleta">
+                    <h3 id="titulo-paleta"><a href="https://github.com/CMardones06/26-08">Web para paleta de colores</a></h3>
+                    <img src="assets/img/colores.png" alt="Cuadrícula de tonos verdes de distintas intensidades en la paleta de colores" loading="lazy" decoding="async">
+                    <p>Sitio web para obtener una paleta de colores monocromática.</p>
+                    <p><strong>Tecnologías:</strong> HTML y CSS.</p>
+                </article>
+
+                <article class="tarjeta" aria-labelledby="titulo-rutas">
+                    <h3 id="titulo-rutas"><a href="https://github.com/CMardones06/Proyecto-de-Matematica-Discreta">Calculadora de rutas</a></h3>
+                    <img src="assets/img/rutas.png" alt="Grafo de ciudades argentinas con la ruta entre Mar del Plata y Corrientes resaltada" loading="lazy" decoding="async">
+                    <p>Calculadora de rutas óptimas entre ciudades mediante el algoritmo de Dijkstra.</p>
+                    <p><strong>Tecnologías:</strong> Python, Matplotlib y NetworkX.</p>
+                </article>
+
+                <article class="tarjeta" aria-labelledby="titulo-animacion">
+                    <h3 id="titulo-animacion"><a href="https://github.com/CMardones06/EID-CalculoIntermedio-G06">Animación matemática</a></h3>
+                    <img src="assets/img/animacion.png" alt="Fotograma de una animación sobre integrales definidas con una región sombreada bajo una curva y términos de la integral resaltados" loading="lazy" decoding="async">
+                    <p>Animación de integrales definidas realizada en Python.</p>
+                    <p><strong>Tecnologías:</strong> Python y Manim Community.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" aria-labelledby="titulo-contacto">
+            <h2 id="titulo-contacto">Contacto</h2>
+            <p>Puedes escribirme para conversar sobre mis proyectos.</p>
+            <p><a class="correo-contacto" href="mailto:camila.mardones2026@alu.uct.cl">camila.mardones2026@alu.uct.cl</a></p>
+
+            <form action="mailto:camila.mardones2026@alu.uct.cl" method="post" enctype="text/plain" aria-label="Formulario de contacto" aria-describedby="instrucciones-contacto">
+                <div class="campo">
+                    <label for="nombre">Nombre (obligatorio)</label>
+                    <input type="text" id="nombre" name="nombre" autocomplete="name" maxlength="100" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo electrónico (obligatorio)</label>
+                    <p id="ayuda-correo" class="ayuda-campo">Utiliza una dirección completa, por ejemplo: nombre@dominio.cl.</p>
+                    <input type="email" id="correo" name="correo" autocomplete="email" inputmode="email" maxlength="254" aria-describedby="ayuda-correo" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje (obligatorio)</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" maxlength="3000" required></textarea>
+                </div>
+                <button class="boton" type="submit">Preparar correo</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Camila Mardones. Todos los derechos reservados.</p>
+        <a href="#inicio">Volver al inicio</a>
+    </footer>
+</body>
 </html>
