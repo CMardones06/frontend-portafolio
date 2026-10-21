@@ -1,0 +1,49 @@
+Declaración de uso de inteligencia artificial en el portafolio
+
+Estudiante: Camila Mardones
+Asignatura: Desarrollo de Frontend · Universidad Católica de Temuco
+Evaluación: P2 Presentación oral de portafolio individual
+
+Declaro que utilicé ChatGPT, de OpenAI, como herramienta de apoyo durante la elaboración de mi portafolio web. La participación de la inteligencia artificial incluyó explicaciones, propuestas de estructura, generación de código HTML y CSS, correcciones, medidas de accesibilidad y redacción de documentación. Por lo tanto, su intervención no se limitó a corregir ortografía o resolver dudas puntuales: también produjo versiones completas de archivos y bloques de código que sirvieron como base para continuar el proyecto.
+
+1 Propósito y alcance de la asistencia
+
+Solicité apoyo para interpretar la pauta, organizar los requisitos y comprender cómo aplicarlos a una página con presentación personal, proyectos y contacto. También planteé que el portafolio pudiera funcionar como una plantilla adaptable por otros programadores. A partir de estas indicaciones, la IA propuso una organización del contenido y relacionó las decisiones de diseño con las necesidades de quienes visitarían o reutilizarían la página.
+
+2 Estructura y contenido HTML
+
+La IA generó ejemplos y versiones completas de HTML, además de revisar fragmentos y archivos que fui compartiendo. Sugirió el uso de header, nav, main, section, article y footer; la jerarquía de encabezados; la navegación mediante identificadores; y la organización de proyectos en tarjetas.
+
+También ayudó a corregir enlaces internos sin el símbolo #, destinos de navegación inexistentes, botones colocados dentro de enlaces y direcciones de correo incompletas o de ejemplo. Propuso textos para la presentación, descripciones y contacto. Aporté mi información personal, las tecnologías y los proyectos que quería mostrar, sus enlaces y, posteriormente, sus capturas de pantalla.
+
+3 Estilos y diseño responsivo
+
+Solicité un CSS básico y útil para mi estructura. La IA redactó estilos para colores, tipografía, espaciados, menú, tarjetas, imágenes, formulario y pie de página. Propuso Flexbox para organizar elementos y CSS Grid para distribuir los proyectos, con tres puntos de quiebre de ancho: 480, 768 y 1024 píxeles.
+
+Las propuestas incluyeron una columna de tarjetas en pantallas pequeñas, dos desde 768 píxeles y tres desde 1024 píxeles; el primer quiebre ajusta el espacio del contenido. La IA también orientó la estructura de carpetas con assets, styles e img y las rutas relativas necesarias para cargar archivos.
+
+4 Accesibilidad
+
+Pedí expresamente incorporar los requisitos de accesibilidad de la pauta. La IA generó una versión de HTML con idioma y título descriptivos, textos alternativos para las imágenes, nombres accesibles de regiones, encabezados ordenados y un enlace para saltar al contenido. Añadió relaciones mediante aria-label, aria-labelledby y aria-describedby, así como tabindex="-1" en destinos que deben poder recibir el foco.
+
+Para el formulario, propuso etiquetas asociadas a los campos mediante for e id, indicaciones de obligatoriedad, autocompletado, tipo email y ayudas de formato. También produjo un archivo CSS complementario para el foco visible, contraste, controles flexibles, movimiento reducido y colores forzados.
+
+5 Documentación y orientación técnica
+
+La IA redactó un README adaptado a los archivos compartidos, con descripción, audiencia, tecnologías, estructura de carpetas, instrucciones de apertura, capturas de los proyectos, decisiones de diseño, responsividad y accesibilidad. Además, preparó propuestas de guion para la presentación oral, preguntas técnicas y una revisión de los criterios de la pauta.
+
+Recibí orientación para elegir el nombre del repositorio, guardar y subir cambios con Git y configurar GitHub Pages. Compartí capturas de problemas de VS Code y obtuve explicaciones y posibles soluciones para mensajes de GitLens. Esta orientación no implica que la IA haya realizado por mí la publicación final en mi repositorio.
+
+6 Verificaciones realizadas y límites
+
+Durante la asistencia se efectuaron comprobaciones de archivos sobre etiquetas, identificadores, enlaces internos, relaciones de campos, recursos disponibles y algunos valores de contraste. En las versiones examinadas se detectaron elementos que debían corregirse, como la referencia del formulario a instrucciones-contacto cuando ese párrafo ya no estaba presente.
+
+No se completó una revisión visual del sitio final en el navegador de la sesión, ni una auditoría con lector de pantalla. Tampoco se confirmó el funcionamiento de todos los enlaces externos o la entrega de mensajes. El formulario utiliza mailto y depende de la aplicación de correo del visitante; no cuenta con un backend que garantice el envío.
+
+7 Participación personal y responsabilidad
+
+Mi participación incluyó definir la finalidad del portafolio, compartir avances de código y archivos, formular dudas, seleccionar los proyectos que se mostrarían y proporcionar datos, enlaces y capturas para personalizar las propuestas. La asistencia fue iterativa y se utilizó tanto para comprender conceptos como para generar y mejorar partes del producto.
+
+Reconozco expresamente la generación sustantiva de código y documentación por parte de la IA. No presento esos aportes como si hubieran sido escritos íntegramente sin asistencia. No asigno un porcentaje de autoría porque no se llevó un registro que permita calcularlo de forma fiable.
+
+La selección de la versión que se entrega, la revisión del contenido, la comprobación de funcionamiento y la capacidad de explicar las decisiones técnicas son mi responsabilidad. Esta declaración busca transparentar el alcance de la herramienta y no afirma que todas sus sugerencias hayan quedado incorporadas en la versión final.
